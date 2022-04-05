@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Add Item</title>
+</head>
+<body>
+    <div class="form-control">
+
+        <form action="#">
+        <div class="input-group">
+            <label for="key">Key</label>
+            <input type="text" name="key" id="key" value="">
+        </div>
+        <div class="input-group">
+            <label for="value">Value</label>
+            <input type="text" name="value" id="value" value="">
+        </div>
+        <div class="input-button">
+            <button id="add">Add</button>
+        </div>
+    </form>
+</div>
+    <hr>
+    <div class="form-control">
+    <div class="local-storage">
+       <div class="title">
+           <h3>Items</h3> <p id="deleteItems">Delete all</p>
+        </div>
+        <ul id="items"> 
+        </ul>
+    </div>
+</div>
+</body>
+<script src="/script.js"></script>
+</html>
